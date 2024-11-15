@@ -1,0 +1,1 @@
+export default "const evaluationResults = PresentationExchange.evaluatePresentation({\n  presentationDefinition: presentationDefinition,\n  presentation: presentationResult.presentation\n});\n";

@@ -1,0 +1,1 @@
+export default "val isRevoked = StatusListCredential.validateCredentialInStatusList(\n  revocableVC, statusListCredential\n)\n";

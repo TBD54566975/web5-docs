@@ -1,0 +1,1 @@
+export default "pfiDid = await DidDht.create({\n    options:{\n        services: [{\n            id: 'pfi',\n            type: 'PFI',\n            serviceEndpoint: 'https://example.com'\n        }]\n    }\n});\n";

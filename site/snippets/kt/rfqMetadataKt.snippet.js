@@ -1,0 +1,1 @@
+export default "val rfq = Rfq.create(\n    //metadata\n    //highlight-start\n    to = selectedOffering.metadata.from,    // PFI's DID\n    from = customerDid.uri,  // Customer DID\n    //highlight-end\n    //data\n    rfqData = RfqData()\n)\n";

@@ -1,0 +1,1 @@
+export default "val serviceToAdd = Service.Builder()\n    .id(\"pfi\")\n    .type(\"PFI\")\n    .serviceEndpoint(listOf(\"https://example.com/\"))\n    .build()\n\nval options = CreateDidDhtOptions(\n    publish = true,\n    services = listOf(serviceToAdd),\n)\n\nval pfiDid = DidDht.create(keyManager, options)\n";

@@ -1,0 +1,1 @@
+export default "class SanctionsCredential {\n  constructor(check) {\n    this.listsCleared = check.listsCleared;\n  }\n}\n\nexport default SanctionsCredential;\n";

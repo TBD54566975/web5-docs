@@ -1,0 +1,1 @@
+export default "let presentationDefinition = offering.data.requiredClaims\n";

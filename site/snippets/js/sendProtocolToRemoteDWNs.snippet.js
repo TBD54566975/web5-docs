@@ -1,0 +1,1 @@
+export default "const { protocol } = await web5.dwn.protocols.configure({\n    message: {\n        definition: protocolDefinition\n    }\n});\n\n//immediately send protocol to user's remote DWNs\nconst {status} = await protocol.send(userDid);\n";

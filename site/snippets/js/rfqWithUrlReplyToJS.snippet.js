@@ -1,0 +1,1 @@
+export default "await TbdexHttpClient.createExchange(\n  rfq,\n  //highlight-next-line\n  { replyTo: 'https://example.com/callback' }\n);\n";

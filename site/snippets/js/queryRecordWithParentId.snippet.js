@@ -1,0 +1,1 @@
+export default "const response = await web5.dwn.records.query({\n  message: {\n    filter: {\n      parentId: 'bafyreianzpmhbgcgam5mys722vnsiuwn7y4ek6kjeyjptttquasw4hge2m',\n    },\n  },\n});\n";

@@ -1,0 +1,30 @@
+{
+  "js": {
+    "@tbdex/http-client": "1.1.0",
+    "@tbdex/http-server": "1.1.0",
+    "@tbdex/protocol": "1.1.0",
+    "@web5/api": "0.12.0",
+    "@web5/credentials": "1.1.1",
+    "@web5/crypto": "1.0.5",
+    "@web5/crypto-aws-kms": "1.0.5",
+    "@web5/dids": "1.1.5",
+    "@web5/identity-agent": "0.6.4"
+  },
+  "jvm": {
+    "tbdex": "2.0.1",
+    "web5-credentials": "2.0.1",
+    "web5-dids": "2.0.1",
+    "web5-crypto": "2.0.0",
+    "web5-keymanager-aws": "2.0.0"
+  },
+  "swift": {
+    "Web5": {
+      "url": "https://github.com/TBD54566975/web5-swift.git",
+      "exact": "1.0.0"
+    },
+    "tbDex": {
+      "url": "https://github.com/TBD54566975/tbdex-swift.git",
+      "exact": "1.0.0"
+    }
+  }
+}

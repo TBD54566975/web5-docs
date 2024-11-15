@@ -1,0 +1,1 @@
+export default "import { TbdexHttpClient, Rfq, Quote, Order, OrderStatus, Close, Message } from '@tbdex/http-client';\nimport { VerifiableCredential, PresentationExchange } from '@web5/credentials';\n";

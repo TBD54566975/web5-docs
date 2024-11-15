@@ -1,0 +1,1 @@
+export default "// Select the credentials to be used for the exchange\nconst selectedCredentials = PresentationExchange.selectCredentials({\n  vcJwts: credentials,\n  presentationDefinition: customPresentationDefinition,\n});\n";

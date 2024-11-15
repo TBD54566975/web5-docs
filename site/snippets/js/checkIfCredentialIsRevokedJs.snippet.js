@@ -1,0 +1,1 @@
+export default "const isRevoked = StatusListCredential.validateCredentialInStatusList(\n  revocableVC, statusListCredential\n);\n";

@@ -1,0 +1,1 @@
+export default "const { status: deleteStatus } = await parentRecord.delete({ prune: true });\n";

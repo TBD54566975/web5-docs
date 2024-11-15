@@ -1,0 +1,1 @@
+export default "try {\n    VerifiablePresentation.verify(vpJwt)\n} catch (e: Exception) {\n    println(\"VP Verification failed: ${e.message}\")\n}\n";

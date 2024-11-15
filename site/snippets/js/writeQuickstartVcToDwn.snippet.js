@@ -1,0 +1,1 @@
+export default "const { record } = await web5.dwn.records.create({\n  data: signedVc,\n  message: {\n    schema: 'Web5QuickstartCompletionCredential',\n    dataFormat: 'application/vc+jwt',\n    published: true\n  }\n});\n";

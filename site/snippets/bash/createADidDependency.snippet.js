@@ -1,0 +1,1 @@
+export default "npm install @web5/dids\n";

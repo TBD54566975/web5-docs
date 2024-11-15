@@ -1,0 +1,1 @@
+export default "const { did: aliceBearerDid } = await web5.agent.identity.get({ didUri: aliceDid });\n";

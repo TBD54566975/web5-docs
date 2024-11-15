@@ -1,0 +1,1 @@
+export default "var order = Order(\n    from: customerDid!.uri,                 // Customer's DID\n    to: pfiDid,                             // PFI's DID\n    exchangeID: quote!.metadata.exchangeID, // Exchange ID from the Quote\n    data: .init(),\n    protocol: \"1.0\"                         // Version of tbDEX protocol you're using\n)\n";

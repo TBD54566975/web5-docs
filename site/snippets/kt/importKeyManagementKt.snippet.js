@@ -1,0 +1,1 @@
+export default "import web5.sdk.dids.didcore.DidDocument\nimport web5.sdk.keymanager.aws.AwsKeyManager\nimport web5.sdk.crypto.InMemoryKeyManager\nimport web5.sdk.dids.did.BearerDid\nimport web5.sdk.dids.did.PortableDid\nimport web5.sdk.dids.methods.dht.DidDht\nimport web5.sdk.dids.methods.dht.DidDhtApi\n";

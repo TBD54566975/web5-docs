@@ -1,0 +1,1 @@
+export default "const readSignedVc = await record.data.text();\n";

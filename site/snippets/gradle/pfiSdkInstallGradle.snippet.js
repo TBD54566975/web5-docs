@@ -1,0 +1,1 @@
+export default "repositories {\n        mavenCentral()\n}\ndependencies {\n        implementation(\"xyz.block:tbdex:0.10.0-beta\")\n}\n";

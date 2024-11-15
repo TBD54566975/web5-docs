@@ -1,0 +1,1 @@
+export default "function checkSanctionsList(payload) {\n  // This is where you would add the functionality to perform the actual sanction checks\n  return {\n    isSanctioned: false,\n    listsCleared: [\"FBI's Most Wanted, USA Watchlist\", 'EU Watchlist'],\n  };\n}\n";

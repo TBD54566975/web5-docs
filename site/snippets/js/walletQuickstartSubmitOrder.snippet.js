@@ -1,0 +1,1 @@
+export default "await order.sign(customerDid);\nawait TbdexHttpClient.submitOrder(order);\n";

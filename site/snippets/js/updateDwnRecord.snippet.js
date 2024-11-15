@@ -1,0 +1,1 @@
+export default "// Get the record\nconst { record } = await web5.dwn.records.read({\n  message: {\n    filter: {\n      recordId: createdRecord.id\n    }\n  }\n});\n\n// Update the record\n// highlight-next-line\nconst {status} = await record.update({ data: \"Hello, I'm updated!\" });\n";

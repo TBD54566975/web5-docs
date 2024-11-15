@@ -1,0 +1,1 @@
+export default "offering.sign(pfiDid)\n";

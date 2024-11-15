@@ -1,0 +1,1 @@
+export default "const signedVcJwt = await vc.sign({ did: fanClubIssuerDid });\n";

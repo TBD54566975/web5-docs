@@ -1,0 +1,1 @@
+export default "try{\n  rfq.verifyOfferingRequirements(selectedOffering);\n} catch (e) {\n  // handle failed verification\n}\n";

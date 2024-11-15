@@ -1,0 +1,1 @@
+export default "const rfq = Rfq.create({\n  //highlight-start\n  metadata: {\n    to: selectedOffering.metadata.from,  // PFI's DID\n    from: customerDid.uri,               // Customer's DID\n    protocol: '1.0'                      // Version of tbDEX protocol you're using\n  },\n  //highlight-end\n  data: {}\n});\n";

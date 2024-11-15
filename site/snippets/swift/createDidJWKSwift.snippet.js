@@ -1,0 +1,1 @@
+export default "//Creates a DID using the did:jwk method\nlet didJWK = try DIDJWK.create(keyManager: InMemoryKeyManager())\n\n//DID and its associated data which can be exported and used in different contexts/apps\nlet portableDID = try didJWK.export()\n\n// DID String\nlet did = didJWK.uri\n\n// DID Document\nlet didDocument = didJWK.document\n";

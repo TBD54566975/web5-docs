@@ -1,0 +1,1 @@
+export default "import Web5\n";

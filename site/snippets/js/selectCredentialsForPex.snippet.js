@@ -1,0 +1,1 @@
+export default "const selectedCredentials = PresentationExchange.selectCredentials({\n  vcJwts: allCredentials,\n  presentationDefinition: presentationDefinition\n});\n";

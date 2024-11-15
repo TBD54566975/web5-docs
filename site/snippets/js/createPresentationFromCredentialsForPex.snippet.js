@@ -1,0 +1,1 @@
+export default "const presentationResult = PresentationExchange.createPresentationFromCredentials({\n  vcJwts: selectedCredentials,\n  presentationDefinition: presentationDefinition\n});\n\nconst vp = await VerifiablePresentation.create({\n  holder: holderDid.uri,\n  vcJwts: [selectedCredentials],\n  additionalData: { presentationResult }\n});\n";

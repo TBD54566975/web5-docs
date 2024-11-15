@@ -1,0 +1,1 @@
+export default "val presentationDefinition = offering.data.requiredClaims\n";

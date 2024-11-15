@@ -1,0 +1,1 @@
+export default "// Creates a record with tags\nconst { record } = await web5.dwn.records.create({\n  data: 'Chocolate Chip Cookies',\n  message: {\n    dataFormat: 'application/json',\n    tags: {\n      dishType: 'Dessert',\n      dietaryRestriction: 'Contains Gluten',\n    },\n  },\n});\n";

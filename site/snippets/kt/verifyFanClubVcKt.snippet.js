@@ -1,0 +1,1 @@
+export default "try {\n    VerifiableCredential.verify(signedVcJwt)\n} catch (err: Exception) {\n    println(\"VC Verification failed:\" + err.message)\n}\n";

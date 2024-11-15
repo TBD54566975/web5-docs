@@ -1,0 +1,1 @@
+export default "// Does VC Satisfy the Presentation Definition\ntry {\n    PresentationExchange.satisfiesPresentationDefinition(listOf(signedVcJwt), presentationDefinition)\n} catch (err: Exception) {\n    println(\"VC does not satisfy Presentation Definition: \" + err.message)\n}\n";

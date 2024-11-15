@@ -1,0 +1,1 @@
+export default "try {\n    PresentationExchange.satisfiesPresentationDefinition(\n        vcJwts = selectedCredentials,\n        presentationDefinition = presentationDefinition\n    )\n} catch (e: Exception) {\n    // Handle errors here\n}\n";

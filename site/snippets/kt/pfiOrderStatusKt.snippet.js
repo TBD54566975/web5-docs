@@ -1,0 +1,1 @@
+export default "val orderStatus = OrderStatus.create(\n    from = pfiDid.uri,\n    to = orderMessage.metadata.from,\n    exchangeId = orderMessage.metadata.exchangeId,\n    protocol = \"1.0\",\n    orderStatusData = OrderStatusData(\"PROCESSING\")\n)\n\norderStatus.sign(pfiDid)\nexchangesApiProvider.write(orderStatus)\n";

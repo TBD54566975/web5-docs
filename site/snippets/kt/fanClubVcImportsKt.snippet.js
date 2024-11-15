@@ -1,0 +1,1 @@
+export default "import web5.sdk.credentials.VerifiableCredential\nimport web5.sdk.credentials.PresentationExchange\nimport web5.sdk.crypto.InMemoryKeyManager\nimport web5.sdk.dids.methods.dht.DidDht\nimport web5.sdk.credentials.VerifiablePresentation\n";

@@ -1,0 +1,1 @@
+export default "const { status: deleteStatus } = await record.delete();\n// send the delete request to the remote DWN\nconst { status: deleteSendStatus } = await record.send(did);\n";

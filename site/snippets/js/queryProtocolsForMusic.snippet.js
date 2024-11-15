@@ -1,0 +1,1 @@
+export default "const { protocols } = await web5.dwn.protocols.query({\n  message: {\n    filter: {\n      protocol: 'https://music.org/protocol',\n    },\n  },\n});\n";

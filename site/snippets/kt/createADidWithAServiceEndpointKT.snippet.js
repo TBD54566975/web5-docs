@@ -1,0 +1,1 @@
+export default "val idvService = Service(\n    id = \"idv\",\n    type = \"IDV\",\n    serviceEndpoint = listOf(\"https://exampleIdvEndpoint.com/idv/siopv2/initiate\")\n)\n\nval options = CreateDidDhtOptions(\n    services = listOf(idvService),\n    publish = true\n)\n\nval issuerBearerDid = DidDht.create(InMemoryKeyManager(), options)\n";

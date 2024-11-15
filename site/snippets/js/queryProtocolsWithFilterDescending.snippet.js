@@ -1,0 +1,1 @@
+export default "const { protocols } = await web5.dwn.protocols.query({\n  message: {\n    filter: {\n      protocol: 'http://social-media.xyz',\n    },\n    //highlight-next-line\n    dateSort: 'createdDescending'\n  },\n});\n";

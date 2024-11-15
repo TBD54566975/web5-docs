@@ -1,0 +1,1 @@
+export default "npm i @web5/credentials @web5/dids node-fetch\n";

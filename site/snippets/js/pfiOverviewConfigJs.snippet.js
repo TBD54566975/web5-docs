@@ -1,0 +1,1 @@
+export default "exchangesApiProvider = new ExchangesApiProvider();\nofferingsApiProvider = new OfferingsApiProvider(pfiDid);\n\ntbDexServer = new TbdexHttpServer({\n    exchangesApi: exchangesApiProvider,\n    offeringsApi: offeringsApiProvider,\n    pfiDid: pfiDid.uri\n})\n";

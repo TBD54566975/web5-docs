@@ -1,0 +1,1 @@
+export default "const close = Close.create({\n  metadata: {\n    from: customerDid.uri,\n    to: quote.metadata.from,\n    exchangeId: quote.exchangeId,\n    protocol: '1.0'\n  },\n  data: { reason: 'Canceled by customer'}\n});\n\nawait close.sign(customerDid);\nawait TbdexHttpClient.submitClose(close);\n";

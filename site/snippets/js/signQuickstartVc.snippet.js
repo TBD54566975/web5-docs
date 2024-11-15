@@ -1,0 +1,1 @@
+export default "const signedVc = await vc.sign({ did: aliceBearerDid });\n";

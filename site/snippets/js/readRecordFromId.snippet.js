@@ -1,0 +1,1 @@
+export default "// Reads the indicated record from the user's DWNs\nlet { record } = await web5.dwn.records.read({\n  message: {\n    filter: {\n      recordId: recordId,\n    },\n  },\n});\n\n// assuming the record has a text payload\nconst text = await record.data.text();\n";

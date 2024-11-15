@@ -1,0 +1,1 @@
+export default "try! order.sign(did: customerDid!)\n";

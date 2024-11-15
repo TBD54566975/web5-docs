@@ -1,0 +1,1 @@
+export default "val close = Close.create(\n    from = customerDid.uri,\n    to = quote.metadata.from,\n    exchangeId = quote.metadata.exchangeId,\n    closeData = CloseData(reason = \"Canceled by customer\")\n)\n\nclose.sign(customerDid)\nTbdexHttpClient.submitClose(close)\n";

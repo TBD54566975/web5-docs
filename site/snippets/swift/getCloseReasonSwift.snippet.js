@@ -1,0 +1,1 @@
+export default "let isSuccessful = close!.data.success!\nlet reasonForClose = close!.data.reason\n";

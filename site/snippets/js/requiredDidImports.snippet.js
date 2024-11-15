@@ -1,0 +1,1 @@
+export default "// did:dht\nimport { DidDht } from '@web5/dids'\n\n//did:jwk\nimport { DidJwk } from '@web5/dids'\n\n";

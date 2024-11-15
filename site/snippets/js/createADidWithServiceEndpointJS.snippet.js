@@ -1,0 +1,1 @@
+export default "const issuerBearerDid = await DidDht.create({\n  options: {\n    publish: true,\n    services: [\n      {\n        id: 'idv',\n        type: 'IDV',\n        serviceEndpoint: 'https://exampleIdvEndpoint.com/idv/siopv2/initiate',\n      },\n    ],\n  },\n});\n";

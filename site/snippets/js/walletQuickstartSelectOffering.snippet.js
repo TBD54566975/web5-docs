@@ -1,0 +1,1 @@
+export default "if (offerings) {\n    selectedOffering = offerings.find(\n        (offering) =>\n            offering.data.payin.currencyCode === 'USD' &&\n            offering.data.payout.currencyCode === 'KES'\n    );\n}\n";

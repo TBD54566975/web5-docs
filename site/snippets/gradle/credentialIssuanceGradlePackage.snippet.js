@@ -1,0 +1,1 @@
+export default "// Configure repositories\nrepositories {\n  mavenCentral()\n  maven(\"https://jitpack.io\")\n}\n// Configure dependencies\ndependencies {\n  implementation(\"xyz.block:web5-credentials:0.0.11\")\n}\n";

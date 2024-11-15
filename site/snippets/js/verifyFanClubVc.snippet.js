@@ -1,0 +1,1 @@
+export default "try {\n    await VerifiableCredential.verify({ vcJwt: signedVcJwt });\n} catch (err) {\n    console.log('\\nVC Verification failed: ' + err.message + '\\n');\n}\n";

@@ -1,0 +1,1 @@
+export default "const vpJwt = await verifiablePresentation.sign({ did: holderDid });\n";

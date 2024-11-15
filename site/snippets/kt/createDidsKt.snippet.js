@@ -1,0 +1,1 @@
+export default "val fanClubIssuerDid = DidDht.create(InMemoryKeyManager())\nval aliceDid = DidDht.create(InMemoryKeyManager())\n";

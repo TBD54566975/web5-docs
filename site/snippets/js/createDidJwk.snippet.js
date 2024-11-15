@@ -1,0 +1,1 @@
+export default "//Creates a DID using the did:jwk method\nconst didJwk = await DidJwk.create();\n\n//DID and its associated data which can be exported and used in different contexts/apps\nconst portableDid = await didJwk.export()\n\n//DID string\nconst did = didJwk.uri;\n\n//DID Document\nconst didDocument = JSON.stringify(didJwk.document);\n\n";

@@ -1,0 +1,1 @@
+export default "// resolve did:jwk DID\nlet jwkResolver = DIDJWK.Resolver()\nlet jwkResolvedDid = await jwkResolver.resolve(didURI: didJwkUri)\nlet jwkDidDocument = jwkResolvedDid.didDocument\n\n// resolve did:DHT DID\nlet dhtResolver = DIDDHT.Resolver()\nlet dhtResolvedDid = await dhtResolver.resolve(didURI: didDhtUri)\nlet dhtDidDocument = dhtResolvedDid.didDocument\n";

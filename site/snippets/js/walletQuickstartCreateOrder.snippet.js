@@ -1,0 +1,1 @@
+export default "order = Order.create({\n    metadata: {\n        from: customerDid.uri, // Customer's DID\n        to: pfiDid, // PFI's DID\n        exchangeId: exchangeId, // Exchange ID from the Quote\n        protocol: '1.0', // Version of tbDEX protocol you're using\n    },\n});\n";

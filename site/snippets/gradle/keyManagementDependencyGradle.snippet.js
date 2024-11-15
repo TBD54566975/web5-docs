@@ -1,0 +1,1 @@
+export default "// Configure repositories\nrepositories {\n  mavenCentral()\n}\n// Configure dependencies\ndependencies {\n  implementation(\"xyz.block:web5-crypto:0.12.0\")\n  implementation(\"xyz.block:web5-dids:0.12.0\")\n}\n";

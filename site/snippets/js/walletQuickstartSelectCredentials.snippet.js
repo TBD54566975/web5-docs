@@ -1,0 +1,1 @@
+export default "selectedCredentials = PresentationExchange.selectCredentials({\n    vcJwts: customerCredentials,\n    presentationDefinition: selectedOffering.data.requiredClaims,\n});\n";

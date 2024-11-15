@@ -1,0 +1,1 @@
+export default "//did:dht\nimport web5.sdk.dids.methods.dht.DidDht\nimport web5.sdk.dids.methods.dht.CreateDidDhtOptions\n\n//did:jwk\nimport web5.sdk.dids.methods.jwk.DidJwk\n\n// key manager\nimport web5.sdk.crypto.InMemoryKeyManager\n";

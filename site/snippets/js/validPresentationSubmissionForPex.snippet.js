@@ -1,0 +1,1 @@
+export default "const submissionCheck = PresentationExchange.validateSubmission({\n  presentationSubmission: presentationResult.presentationSubmission\n});\n";

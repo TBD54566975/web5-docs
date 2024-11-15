@@ -1,0 +1,1 @@
+export default "const vc_jwt_employment = await vc.sign({ did: employer });\n";

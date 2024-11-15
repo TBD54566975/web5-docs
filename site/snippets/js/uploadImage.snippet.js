@@ -1,0 +1,1 @@
+export default "// Create a blob record\nasync function upload(event) {\n  const blob = new Blob(event.currentTarget.files, { type: 'image/png' });\n  const { record } = await web5.dwn.records.create({\n    data: blob,\n    message: {\n      dataFormat: 'image/png',\n    },\n  });\n  return record;\n}\n";

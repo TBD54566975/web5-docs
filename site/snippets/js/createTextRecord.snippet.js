@@ -1,0 +1,1 @@
+export default "// Create a plain text record\nconst { record } = await web5.dwn.records.create({\n  data: {\n    content: 'Hello Web5',\n    description: 'Keep Building!',\n  },\n  message: {\n    dataFormat: 'application/json',\n  },\n});\n";

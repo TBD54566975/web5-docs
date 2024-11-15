@@ -1,0 +1,1 @@
+export default "var closeMessage = Close(\n    from: customerDid!.uri,\n    to: quote!.metadata.from,\n    exchangeID: quote!.metadata.exchangeID,\n    data: CloseData(reason: \"Canceled by customer\"),\n    protocol: \"1.0\"\n)\ntry! closeMessage.sign(did: customerDid!)\ntry! await tbDEXHttpClient.submitClose(close: closeMessage)\n";

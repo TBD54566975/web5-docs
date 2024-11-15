@@ -1,0 +1,1 @@
+export default "try! await tbDEXHttpClient.submitOrder(order: order)\n";

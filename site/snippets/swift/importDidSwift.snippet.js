@@ -1,0 +1,1 @@
+export default "// import did:jwk DID\nlet bearerJwkDID = try DIDJWK.import(keyManager: keyManager, portableDID: portableJwkDID)\n";

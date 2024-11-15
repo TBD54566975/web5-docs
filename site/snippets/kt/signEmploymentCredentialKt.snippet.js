@@ -1,0 +1,1 @@
+export default "val signedVcJwt = vc.sign(employerDid)\n";

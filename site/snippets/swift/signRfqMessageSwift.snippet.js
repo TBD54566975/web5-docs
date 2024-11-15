@@ -1,0 +1,1 @@
+export default "try rfq.sign(did: customerDid!)\n";

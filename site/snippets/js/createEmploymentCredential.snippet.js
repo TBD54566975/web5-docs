@@ -1,0 +1,1 @@
+export default "const vc = await VerifiableCredential.create({\n  type: 'EmploymentCredential',\n  issuer: employer.uri,\n  subject: employee.uri,\n  expirationDate: '2023-09-30T12:34:56Z',\n  data: {\n    \"position\": \"Software Developer\",\n    \"startDate\": \"2023-04-01T12:34:56Z\",\n    \"employmentStatus\": \"Contractor\"\n  }\n});\n";

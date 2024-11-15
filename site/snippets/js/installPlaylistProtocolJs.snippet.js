@@ -1,0 +1,1 @@
+export default "const { protocol, status } = await web5.dwn.protocols.configure({\n    message: {\n        definition: curatorPlaylistProtocolDefinition,\n    },\n});\n\n// send protocol to remote DWNs immediately\nconst { status: sendStatus } = await protocol.send(did);\n";

@@ -1,0 +1,1 @@
+export default "await rfq.verifyOfferingRequirements(selectedOffering);\nawait rfq.sign(customerDid);\nawait TbdexHttpClient.createExchange(rfq);\n";

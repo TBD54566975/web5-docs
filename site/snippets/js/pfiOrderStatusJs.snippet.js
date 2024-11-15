@@ -1,0 +1,1 @@
+export default "const orderStatus = OrderStatus.create({\n    metadata: {\n        from: pfiDid.uri,\n        to: orderMessage.metadata.from,\n        exchangeId: orderMessage.metadata.exchangeId\n    },\n    data: { orderStatus: 'PROCESSING' }\n})\n\nawait orderStatus.sign(pfiDid)\ndataProvider.insert(orderStatus)\n";

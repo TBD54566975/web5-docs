@@ -1,0 +1,1 @@
+export default "statusListCredential = StatusListCredential.create({\n    statusListCredentialId : 'https://example.com/credentials/status/1',\n    issuer                 : issuerDid.uri,\n    statusPurpose          : StatusPurpose.revocation,\n    // highlight-next-line\n    credentialsToDisable   : [revocableVC]\n});\n";

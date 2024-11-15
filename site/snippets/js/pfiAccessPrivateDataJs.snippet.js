@@ -1,0 +1,1 @@
+export default "const creditCardNumber = rfq.privateData.payin.paymentDetails.cardNumber\n";

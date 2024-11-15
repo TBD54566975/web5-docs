@@ -1,0 +1,1 @@
+export default "const pfiDid = 'did:dht:3fkz5ssfxbriwks3iy5nwys3q5kyx64ettp9wfn1yfekfkiguj1y';\n";

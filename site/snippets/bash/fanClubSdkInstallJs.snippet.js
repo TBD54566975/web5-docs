@@ -1,0 +1,1 @@
+export default "npm i @web5/credentials\nnpm i @web5/dids\n";

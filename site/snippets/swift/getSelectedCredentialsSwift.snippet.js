@@ -1,0 +1,1 @@
+export default "let selectedCredentials = try! PresentationExchange.selectCredentials(\n    vcJWTs: credentials,\n    presentationDefinition: offering.data.requiredClaims!\n)\n";

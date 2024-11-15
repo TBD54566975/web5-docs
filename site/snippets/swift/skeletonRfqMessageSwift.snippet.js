@@ -1,0 +1,1 @@
+export default "var rfq = RFQ(\n    to,      //metadata\n    from,    //metadata\n    data\n)\n";

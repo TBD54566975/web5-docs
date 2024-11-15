@@ -1,0 +1,1 @@
+export default "issuerBearerDid.document.service.push({\n  id: 'idv',\n  type: 'IDV',\n  serviceEndpoint: 'https://exampleIdvEndpoint.com/idv/siopv2/initiate',\n});\n\nconst updatedDidDocument = await DidDht.publish({ did: issuerBearerDid });\n";

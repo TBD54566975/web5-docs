@@ -1,0 +1,1 @@
+export default "const parsedVc = VerifiableCredential.parseJwt({ vcJwt: readSignedVc });\n";

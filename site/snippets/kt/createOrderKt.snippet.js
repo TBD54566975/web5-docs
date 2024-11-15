@@ -1,0 +1,1 @@
+export default "val order = Order.create(\n    from = customerDid.uri,                 // Customer's DID\n    to = quote.metadata.from,               // PFI's DID\n    exchangeId = quote.metadata.exchangeId, // Exchange ID from the Quote\n    protocol= \"1.0\"                        // Version of tbDEX protocol you're using\n)\n";

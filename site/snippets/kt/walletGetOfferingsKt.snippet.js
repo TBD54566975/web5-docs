@@ -1,0 +1,1 @@
+export default "val offerings =  TbdexHttpClient.getOfferings(pfiDid)\n";

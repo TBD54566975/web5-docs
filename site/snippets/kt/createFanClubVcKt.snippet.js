@@ -1,0 +1,1 @@
+export default "val vc = VerifiableCredential.create(\n    type = \"SwiftiesFanClub\",\n    issuer = fanClubIssuerDid.uri,\n    subject = aliceDid.uri,\n    data = SwiftiesFanClub(level = \"Stan\", legit = true)\n)\n";

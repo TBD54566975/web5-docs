@@ -1,0 +1,1 @@
+export default "import { DidDht } from '@web5/dids';\n";

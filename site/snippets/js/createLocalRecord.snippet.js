@@ -1,0 +1,1 @@
+export default "const { record } = await web5.dwn.records.create({\n    data: \"this record will be written to the local DWN\",\n    message: {\n        dataFormat: 'text/plain'\n    }\n});\n";

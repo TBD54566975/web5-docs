@@ -1,0 +1,1 @@
+export default "const response = await web5.dwn.records.query({\n  message: {\n    filter: {\n      dataFormat: 'text/plain',\n    },\n    //highlight-next-line\n    dateSort: 'publishedAscending',\n  },\n});\n";

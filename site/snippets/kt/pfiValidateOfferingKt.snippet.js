@@ -1,0 +1,1 @@
+export default "Validator.validate(Parser.parseResourceToJsonNode(offering.toString()), \"resource\")\n";

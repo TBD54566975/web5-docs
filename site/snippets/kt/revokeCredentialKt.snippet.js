@@ -1,0 +1,1 @@
+export default "val statusListCredential = StatusListCredential.create(\n  \"https://example.com/credentials/status/1\",\n  issuerDid.uri,\n  StatusPurpose.REVOCATION,\n  // highlight-next-line\n  listOf(revocableVC)\n)\n\n";

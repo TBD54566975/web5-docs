@@ -1,0 +1,1 @@
+export default "// Does VC Satisfy the Presentation Definition\ntry {\n    PresentationExchange.satisfiesPresentationDefinition({ vcJwts: [signedVcJwt], presentationDefinition: presentationDefinition });\n} catch (err) {\n    console.log('VC does not satisfy Presentation Definition: ' + err.message);\n}\n";

@@ -1,0 +1,1 @@
+export default "try {\n  PresentationExchange.validateDefinition({ presentationDefinition: pd });\n} catch (e) {\n  console.log(e);\n}\n";

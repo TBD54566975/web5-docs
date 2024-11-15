@@ -1,0 +1,1 @@
+export default "quote.sign(pfiDid)\nexchangesApiProvider.write(quote)\n";

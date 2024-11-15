@@ -1,0 +1,1 @@
+export default "var rfq = RFQ(\n    //highlight-start\n    to: (selectedOffering?.metadata.from)!,  // PFI's DID\n    from: customerDid!.uri,    // Customer's DID\n    //highlight-end\n    data\n)\n";

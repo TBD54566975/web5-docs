@@ -1,0 +1,1 @@
+export default "if (errorsFound) {\n    verificationResults.forEach { result ->\n        if (!result.isValid) {\n            println(\"Error: ${result.error} for JWT ${result.jwt}\")\n        }\n    }\n} else {\n     //no errors are found. continue processing\n}\n";

@@ -1,0 +1,1 @@
+export default "const fanClubIssuerDid = await DidDht.create();\nconst aliceDid = await DidDht.create();\n";

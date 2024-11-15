@@ -1,0 +1,1 @@
+export default "const vc = await VerifiableCredential.create({\n    type: 'SwiftiesFanClub',\n    issuer: fanClubIssuerDid.uri,\n    subject: aliceDid.uri,\n    data: new SwiftiesFanClub('Stan', true)\n});\n";

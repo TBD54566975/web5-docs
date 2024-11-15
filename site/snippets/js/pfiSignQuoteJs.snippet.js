@@ -1,0 +1,1 @@
+export default "await quote.sign(pfiDid);\ndataProvider.insert(quote);\n";

@@ -1,0 +1,1 @@
+export default "let offerings = try await tbDEXHttpClient.getOfferings(pfiDIDURI: pfiDid)\n";

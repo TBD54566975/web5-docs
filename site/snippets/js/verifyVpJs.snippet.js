@@ -1,0 +1,1 @@
+export default "try {\n  await VerifiablePresentation.verify({ vpJwt: vpJwt });\n} catch (err) {\n  console.log('\\nVP Verification failed: ' + err.message + '\\n');\n}\n\n";

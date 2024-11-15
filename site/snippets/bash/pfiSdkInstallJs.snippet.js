@@ -1,0 +1,1 @@
+export default "npm i @web5/dids\nnpm i @web5/credentials\nnpm i @tbdex/http-server\n";

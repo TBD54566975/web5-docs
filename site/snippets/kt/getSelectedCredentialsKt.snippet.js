@@ -1,0 +1,1 @@
+export default "// Select the credentials to be used for the exchange\nval selectedCredentials = PresentationExchange.selectCredentials(\n    credentials,\n    selectedOffering.data.requiredClaims!!\n)\n";

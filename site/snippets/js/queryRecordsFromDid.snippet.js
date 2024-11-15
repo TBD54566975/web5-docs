@@ -1,0 +1,1 @@
+export default "const { records } = await web5.dwn.records.query({\n  //highlight-next-line\n  from: did,\n  message: {\n    filter: {\n      schema: 'https://schema.org/Playlist',\n      dataFormat: 'application/json',\n    },\n  },\n});\n";

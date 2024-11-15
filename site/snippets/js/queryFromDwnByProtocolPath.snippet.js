@@ -1,0 +1,1 @@
+export default "const { records } = await web5.dwn.records.query({\n  message: {\n    filter: {\n      //highlight-start\n      protocol: 'https://playlist.org/protocol',\n      protocolPath: 'playlist/video'\n      //highlight-end\n    },\n  },\n});\n";

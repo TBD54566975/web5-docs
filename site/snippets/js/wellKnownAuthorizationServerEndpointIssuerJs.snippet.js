@@ -1,0 +1,1 @@
+export default "app.get('/.well-known/oauth-authorization-server', (req, res) => {\n  const oauthAuthorizationServerMetadata = {\n    issuer: 'https://issuer.example.com', // URL of the Credential Issuer\n    token_endpoint: 'https://issuer.example.com/token', // URL for the Access Token Request\n  };\n\n  res.json(oauthAuthorizationServerMetadata);\n});\n";

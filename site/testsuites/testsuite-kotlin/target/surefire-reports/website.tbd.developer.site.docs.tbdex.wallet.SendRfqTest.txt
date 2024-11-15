@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: website.tbd.developer.site.docs.tbdex.wallet.SendRfqTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.789 s - in website.tbd.developer.site.docs.tbdex.wallet.SendRfqTest

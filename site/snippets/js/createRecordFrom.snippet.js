@@ -1,0 +1,1 @@
+export default "// Create a new version of the record based on the original record\nconst { record: newVersionRecord } = await web5.dwn.records.createFrom({\n  record: originalRecord,\n  data: 'I am a new version of the original record!',\n  message: {\n    dataFormat: 'text/plain',\n    published: true,\n  },\n});\n";

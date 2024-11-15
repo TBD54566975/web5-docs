@@ -1,0 +1,1 @@
+export default "repositories {\n    mavenCentral()\n}\ndependencies {\n    implementation(\"xyz.block:web5-dids:0.10.0\")\n}\n";

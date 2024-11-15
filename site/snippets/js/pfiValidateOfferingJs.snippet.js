@@ -1,0 +1,1 @@
+export default "offering.validate();\n";

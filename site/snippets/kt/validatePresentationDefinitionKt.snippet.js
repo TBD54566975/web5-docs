@@ -1,0 +1,1 @@
+export default "try {\n    PresentationExchange.validateDefinition(pd)\n} catch (err: Exception) {\n    println(err.message)\n}\n";

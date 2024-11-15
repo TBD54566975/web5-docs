@@ -1,0 +1,1 @@
+export default "rfq.sign(customerDid);\n";

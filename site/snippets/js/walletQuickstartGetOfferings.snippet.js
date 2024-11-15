@@ -1,0 +1,1 @@
+export default "const offerings = await TbdexHttpClient.getOfferings({ pfiDid: pfiDid });\n";

@@ -1,0 +1,1 @@
+export default "const rfq = Rfq.create({\n  metadata: {},\n  data: {},\n});\n";

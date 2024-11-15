@@ -1,0 +1,1 @@
+export default "import { DidDht } from '@web5/dids';\nimport { LocalKeyManager } from \"@web5/crypto\";\nimport { AwsKeyManager } from \"@web5/crypto-aws-kms\";\n";

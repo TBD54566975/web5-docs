@@ -1,0 +1,1 @@
+export default "customerDid = await DidDht.create({\n    options: {\n        publish: true,\n    },\n});\n";

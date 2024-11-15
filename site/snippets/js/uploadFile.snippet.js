@@ -1,0 +1,1 @@
+export default "// Create a file record\nasync function upload(event) {\n  const file = event.currentTarget.files[0];\n  const { status: fileStatus, record } = await web5.dwn.records.create({\n    data: file,\n    message: {\n      schema: 'https://schema.org/path/to/schema',\n      dataFormat: 'application/octet-stream',\n    },\n  });\n  return record;\n}\n";

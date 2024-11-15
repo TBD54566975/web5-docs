@@ -1,0 +1,1 @@
+export default "const isSuccessful = close.data.success;\nconst reasonForClose = close.data.reason;\n";

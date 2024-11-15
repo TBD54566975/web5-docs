@@ -1,0 +1,1 @@
+export default "@Serializable\ndata class IssuerResponse(\n    val credential_offer: CredentialOffer? = null,\n    val url: String? = null\n)\n\n@Serializable\ndata class CredentialOffer(\n    val credential_issuer: String,\n    val credential_configuration_ids: List<String>,\n    val grants: JsonObject\n)\n";

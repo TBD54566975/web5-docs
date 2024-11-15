@@ -1,0 +1,1 @@
+export default "const parsedVC = await VerifiableCredential.parseJwt({ vcJwt: signedVcJwt });\n";

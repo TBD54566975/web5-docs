@@ -1,0 +1,1 @@
+export default "const drl = `https://dweb/${did}/read/records/${recordId}`;\nconst response = await fetch(drl);\nconst imageUrl = URL.createObjectURL(await response.blob());\n";

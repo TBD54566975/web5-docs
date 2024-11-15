@@ -1,0 +1,1 @@
+export default "val vpDataMap = verifiablePresentation.vpDataModel.toMap()\nval presentationSubmission = vpDataMap[\"presentation_submission\"] as PresentationSubmission\n\ntry {\n    PresentationExchange.validateSubmission(presentationSubmission)\n} catch (e: Exception) {\n    println(\"Invalid Presentation Submission: ${e.message}\")\n}\n";

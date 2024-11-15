@@ -1,0 +1,1 @@
+export default "PresentationExchange.validateDefinition({ \n    presentationDefinition: pd \n});\n";

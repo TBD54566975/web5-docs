@@ -1,0 +1,1 @@
+export default "const walletDid = await DidDht.create({\n  options: {\n    publish: true,\n    services: [\n      {\n        id: 'tbdex',\n        //highlight-start\n        type: 'tbdex',\n        serviceEndpoint: 'https://example.com/callback'\n        //highlight-end\n      },\n    ],\n  },\n});\n";

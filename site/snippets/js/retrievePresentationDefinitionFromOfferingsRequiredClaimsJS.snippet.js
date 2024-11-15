@@ -1,0 +1,1 @@
+export default "const presentationDefinition = offering.data.requiredClaims;\n";

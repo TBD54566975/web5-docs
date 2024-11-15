@@ -1,0 +1,1 @@
+export default "val creditCardNumber = rfq.privateData!!.payin!!.paymentDetails!![\"cardNumber\"]\n";

@@ -1,0 +1,1 @@
+export default "// import did:dht DID\nconst bearerDidDht = await DidDht.import({ portableDid: portableDhtDid });\n// import did:jwk DID\nconst bearerDidJwk = await DidJwk.import({ portableDid: portableJwkDid });\n";

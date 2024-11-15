@@ -1,0 +1,1 @@
+export default "data class SanctionsCredential(val listsCleared: List<String>)\n";
