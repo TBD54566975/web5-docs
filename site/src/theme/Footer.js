@@ -5,91 +5,16 @@ import TextLink from '../components/TextLink';
 
 export function Footer() {
   const footer = {
-    logoSrc: '/img/tbd-logo-square.svg',
     copyrightSignSrc: '/img/copyright-image.svg',
     year: new Date().getFullYear(),
     links: [
       {
-        text: 'Legal',
-        href: 'https://www.tbd.website/legal/terms',
-      },
-      {
-        text: 'Code of Conduct',
-        href: '/open-source/code-of-conduct',
-      },
-      {
-        text: 'TBD Home',
-        href: 'https://www.tbd.website',
+        text: 'Home',
+        href: '/',
       },
     ],
     socialText: 'Connect with us',
-    socialButtons: [
-      {
-        src: '/img/github-icon.svg',
-        url: 'https://github.com/TBD54566975/',
-        altText: 'GitHub button',
-        title: 'Go to GitHub',
-      },
-      {
-        src: '/img/discord-icon.svg',
-        url: 'https://discord.gg/tbd',
-        altText: 'Discord button',
-        title: 'Go to Discord',
-      },
-      {
-        src: '/img/twitter-icon.svg',
-        url: 'https://twitter.com/TBDevs',
-        altText: 'Twitter button',
-        title: 'Go to Twitter/X',
-      },
-      {
-        src: '/img/youtube-icon.svg',
-        url: 'https://www.youtube.com/@tbd.videos',
-        altText: 'YouTube button',
-        title: 'Go to YouTube',
-      },
-      {
-        src: '/img/twitch-icon.svg',
-        url: 'https://www.twitch.tv/tbdevs',
-        altText: 'Twitch button',
-        title: 'Go to Twitch',
-      },
-      {
-        src: '/img/linkedin-icon.svg',
-        url: 'https://www.linkedin.com/company/tbd54566975',
-        altText: 'LinkedIn button',
-        title: 'Go to LinkedIn',
-      },
-      {
-        src: '/img/shopping-cart.svg',
-        url: 'https://tbd.shop/',
-        altText: 'TBD Shop',
-        title: 'Go to TBD Shop',
-      }
-      /*
-
-      Removed these social links until we'd like to be responsive to these mediums:
-      https://github.com/TBD54566975/developer.tbd.website/issues/293
-      {
-        src: '/img/vimeo-icon.svg',
-        url: 'https://vimeo.com/tbd54566975',
-        altText: 'Vimeo button',
-        title: 'Go to Vimeo',
-      },
-      {
-        src: '/img/instagram-icon.svg',
-        url: 'https://instagram.com/tbd54566975?igshid=YmMyMTA2M2Y=',
-        altText: 'Instagram button',
-        title: 'Go to Instagram',
-      },
-      {
-        src: '/img/tiktok-icon.svg',
-        url: 'https://vm.tiktok.com/ZTdx4L1Ft/',
-        altText: 'TikTok button',
-        title: 'Go to TikTok',
-      },
-      */
-    ],
+    socialButtons: [],
     isLegal: false,
   };
 

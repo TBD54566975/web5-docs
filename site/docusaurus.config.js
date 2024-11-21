@@ -100,11 +100,6 @@ let config = {
 
       items: [
         {
-          to: '/projects',
-          label: 'Projects',
-          position: 'left',
-        },
-        {
           type: 'doc',
           docId: 'index',
           to: '/docs',
