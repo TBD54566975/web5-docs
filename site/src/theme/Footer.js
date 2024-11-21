@@ -82,10 +82,7 @@ export function Footer() {
           </div>
         </div>
         <div
-          style={{
-            background: `url('/img/footer-bottom-dark.svg'`,
-            backgroundRepeat: 'repeat',
-          }}
+      
           className="bg-repeat-x h-6"
         ></div>
       </div>
