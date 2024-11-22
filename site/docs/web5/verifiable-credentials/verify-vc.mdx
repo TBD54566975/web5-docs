@@ -15,7 +15,7 @@ A Verifiable Credential (VC) is a digital proof related to an entity, known as t
 
 ## Verify Verifiable Credentials
 
-Upon receipt, the presentation of the VCs is encoded as [JWTs](/docs/web5/verifiable-credentials/jwt-to-vc#what-is-a-jwt) and can be verified via the `VerifiableCredentials.verify()` function.
+Upon receipt, the presentation of the VCs is encoded as [JWTs](/web5/verifiable-credentials/jwt-to-vc#what-is-a-jwt) and can be verified via the `VerifiableCredentials.verify()` function.
 
 This function will:
 
@@ -159,7 +159,7 @@ A Presentation object includes multiple elements including the presentation subm
 
 </details>
 
-Since the VC JWTs are part of the larger [Presentation JSON object](/docs/web5/verifiable-credentials/presentation-exchange#create-presentation), they must be extracted and verified individually.
+Since the VC JWTs are part of the larger [Presentation JSON object](/web5/verifiable-credentials/presentation-exchange#create-presentation), they must be extracted and verified individually.
 Below is an example of how this might be implemented:
 
 <Shnip
@@ -183,7 +183,7 @@ The Verifier would then examine the results of the verifications to determine th
 
 ## Verify Verifiable Presentations
 
-Upon receipt, a Verifiable Presentation is encoded as a [JWT](/docs/web5/verifiable-credentials/jwt-to-vc#what-is-a-jwt) and can be verified via the `VerifiablePresentation.verify()` function.
+Upon receipt, a Verifiable Presentation is encoded as a [JWT](/web5/verifiable-credentials/jwt-to-vc#what-is-a-jwt) and can be verified via the `VerifiablePresentation.verify()` function.
 
 <Shnip
   snippets={[
@@ -270,4 +270,4 @@ We strongly recommend that you verify this information by referencing the VC's `
 
 ## Read VC Data
 
-Once you're confident that the VCs are valid, you can proceed to [parse the JWTs into VC objects](/docs/web5/verifiable-credentials/jwt-to-vc) such that you may work with the credentials' data.
+Once you're confident that the VCs are valid, you can proceed to [parse the JWTs into VC objects](/web5/verifiable-credentials/jwt-to-vc) such that you may work with the credentials' data.

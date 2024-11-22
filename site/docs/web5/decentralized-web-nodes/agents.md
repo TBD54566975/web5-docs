@@ -6,7 +6,7 @@ title: Agents
 
 When you [connect to Web5](https://tbd54566975.github.io/web5-js/classes/_web5_api.Web5.html#connect), you're connecting to an _agent_. An agent is software that acts on behalf of a user to manage identity, public or private data, and interactions with other apps in a decentralized network.
 
-You can think of an agent as a box that contains a user's [DIDs](/docs/web5/decentralized-identifiers/what-are-dids/), private keys, and a [DWN](/docs/web5/decentralized-web-nodes/what-are-dwns/) (which can also hold [VCs](/)). Agents are capable of managing multiple DIDs and are permissioned to use the private keys of DIDs to act on a user's behalf.
+You can think of an agent as a box that contains a user's [DIDs](/web5/decentralized-identifiers/what-are-dids/), private keys, and a [DWN](/web5/decentralized-web-nodes/what-are-dwns/) (which can also hold [VCs](/)). Agents are capable of managing multiple DIDs and are permissioned to use the private keys of DIDs to act on a user's behalf.
 
 ## Why is it called an agent?
 

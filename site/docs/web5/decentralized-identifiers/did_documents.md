@@ -12,14 +12,14 @@ In this guide, you'll learn about DID Documents and how they're used in connecti
 :::
 
 ## What is a DID Document
-A [DID](/docs/web5/decentralized-identifiers/what-are-dids) essentially acts as a URI that associates the subject of the DID (the person, company, or object being identified) with a DID document that lives off-chain in a decentralized storage system such as IPFS.
+A [DID](/web5/decentralized-identifiers/what-are-dids) essentially acts as a URI that associates the subject of the DID (the person, company, or object being identified) with a DID document that lives off-chain in a decentralized storage system such as IPFS.
 
 A DID Document is a mini-profile for its DID subject. They are JSON files that serve as a self-contained representation of the DID and provides metadata and cryptographic material associated with the DID. 
 
-DID Documents describe how to interact with the DID subject and contains information that allows others to verify the authenticity and integrity of the DID's information. The document includes things like the DID subject's public keys, authentication and verification methods, as well as service endpoints, such as [DWNs](/docs/web5/decentralized-web-nodes/what-are-dwns), that reference the locations of the subject’s data.
+DID Documents describe how to interact with the DID subject and contains information that allows others to verify the authenticity and integrity of the DID's information. The document includes things like the DID subject's public keys, authentication and verification methods, as well as service endpoints, such as [DWNs](/web5/decentralized-web-nodes/what-are-dwns), that reference the locations of the subject’s data.
 
 ## How to Retrieve a DID Document
-Given a person attempts to use their DID within an app to identify themselves, the app would [resolve their DID](/docs/web5/decentralized-identifiers/how-to-resolve-a-did) to find their mini-profile (the DID document).
+Given a person attempts to use their DID within an app to identify themselves, the app would [resolve their DID](/web5/decentralized-identifiers/how-to-resolve-a-did) to find their mini-profile (the DID document).
 
 
 ```json
@@ -143,10 +143,10 @@ The key components of a DID Document are:
   ]
 ```
 
-These are just some of the common fields you might encounter in a DID Document. The structure and contents of a DID Document can vary depending on the specific [DID method](/docs/glossary#did-method) being used and the requirements of the application or use case.
+These are just some of the common fields you might encounter in a DID Document. The structure and contents of a DID Document can vary depending on the specific [DID method](/glossary#did-method) being used and the requirements of the application or use case.
 
 ## DID Document Management
-Managing a DID Document is essential to maintain its integrity, relevance, and security. A DID subject can indicate to their authorized [user agent](/docs/web5/decentralized-web-nodes/agents) (e.g., wallet) a change they'd like to make, and that agent will determine if the DID Document needs to be modified, and if so, will do so on the subject's behalf. Here are a few possible actions:
+Managing a DID Document is essential to maintain its integrity, relevance, and security. A DID subject can indicate to their authorized [user agent](/web5/decentralized-web-nodes/agents) (e.g., wallet) a change they'd like to make, and that agent will determine if the DID Document needs to be modified, and if so, will do so on the subject's behalf. Here are a few possible actions:
 
 **Update**
 

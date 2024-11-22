@@ -13,7 +13,7 @@ import CodeSnippet from '@site/src/components/CodeSnippet';
 
 # Web5.connect()
 
-The Web5 JS SDK provides a simple interface to get started building Web5 applications quickly. It provides APIs to use [Decentralized Identifiers (DIDs)](/docs/web5/decentralized-identifiers/what-are-dids) and [Decentralized Web Nodes (DWNs)](/docs/web5/decentralized-web-nodes/what-are-dwns) right away by initializing the SDK through `Web5.connect()`.
+The Web5 JS SDK provides a simple interface to get started building Web5 applications quickly. It provides APIs to use [Decentralized Identifiers (DIDs)](/web5/decentralized-identifiers/what-are-dids) and [Decentralized Web Nodes (DWNs)](/web5/decentralized-web-nodes/what-are-dwns) right away by initializing the SDK through `Web5.connect()`.
 <br />
 
 ## Install
@@ -109,7 +109,7 @@ or
 
 ## Connect
 
-Using `Web5.connect()`, an instance of Web5 is created that enables an app to connect to an existing decentralized identifier (DID) either by direct creation or connection to an [identity agent app](/docs/web5/decentralized-web-nodes/agents) or create a new one. The method also creates a locally running Decentralized Web Node (DWN) and associates it with the DID.
+Using `Web5.connect()`, an instance of Web5 is created that enables an app to connect to an existing decentralized identifier (DID) either by direct creation or connection to an [identity agent app](/web5/decentralized-web-nodes/agents) or create a new one. The method also creates a locally running Decentralized Web Node (DWN) and associates it with the DID.
 
 This local DWN is synchronized with a remote DWN node (if specified) that enables connectivity and sync across the user's devices and other users. While the Web5 JS SDK is in technical preview, a remote DWN is automatically provisioned and connected to the local DWN - syncing every 2 minutes.
 
@@ -117,7 +117,7 @@ This local DWN is synchronized with a remote DWN node (if specified) that enable
 
 ### Options
 
-Enables an app to request connection to a user's local identity app (like a desktop or mobile [agent](/docs/web5/decentralized-web-nodes/agents) - work is underway for reference apps of each), or generate an in-app DID to represent the user (e.g. if the user does not have an identity app)
+Enables an app to request connection to a user's local identity app (like a desktop or mobile [agent](/web5/decentralized-web-nodes/agents) - work is underway for reference apps of each), or generate an in-app DID to represent the user (e.g. if the user does not have an identity app)
 
 :::note
 The outputs of this method invocation will be used throughout the other API methods.

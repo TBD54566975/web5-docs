@@ -11,7 +11,7 @@ Some of these apps even function as social media sites for book enthusiasts.
 
 Let's create a decentralized app for readers who want to keep reviews on the various books they've read. Rather than being locked into one book review app, they wish to have control over their reviews and easily share them across different platforms.
 
-This tutorial demonstrates how to use Web5.js to create an app that stores users' book reviews within their [DWNs](/docs/web5/decentralized-web-nodes/what-are-dwns) so that they can be accessed by any app on the web that has [permission](/docs/web5/decentralized-web-nodes/what-are-dwns#authorization).
+This tutorial demonstrates how to use Web5.js to create an app that stores users' book reviews within their [DWNs](/web5/decentralized-web-nodes/what-are-dwns) so that they can be accessed by any app on the web that has [permission](/web5/decentralized-web-nodes/what-are-dwns#authorization).
 
 ## Running Locally
 
@@ -95,7 +95,7 @@ Now we have the Web5 SDK installed and are ready to start building!
 
 ## Connect to Web5
 
-The first thing we want to do is **connect**. In Web5 apps, this replaces the traditional login step. Instead of centralized accounts that belong to one application, users have [DIDs](/docs/web5/decentralized-identifiers/what-are-dids) and [DWNs](/docs/web5/decentralized-web-nodes/what-are-dwns), decentralized identity and storage, respectively.
+The first thing we want to do is **connect**. In Web5 apps, this replaces the traditional login step. Instead of centralized accounts that belong to one application, users have [DIDs](/web5/decentralized-identifiers/what-are-dids) and [DWNs](/web5/decentralized-web-nodes/what-are-dwns), decentralized identity and storage, respectively.
 
 ```js
 const {web5, did: userDid} = await Web5.connect();
@@ -130,7 +130,7 @@ const schema = {
 
 ## Get Book Reviews
 
-The objects that are written to a DWN are called records. To query for records from a user's DWN, we call `web5.dwn.records.query()` and pass in [filters](/docs/web5/decentralized-web-nodes/query-from-dwn#filterable-record-properties) to find the specific records we want. In our case, we want to query for all records that follow the Review schema.
+The objects that are written to a DWN are called records. To query for records from a user's DWN, we call `web5.dwn.records.query()` and pass in [filters](/web5/decentralized-web-nodes/query-from-dwn#filterable-record-properties) to find the specific records we want. In our case, we want to query for all records that follow the Review schema.
 
 ```js
 //Query book review (search for DWN records)
@@ -343,7 +343,7 @@ We see that `create()` accepts `data` and `message`. The `data` is the payload o
 Notice that we provide the actual book review as the value of `data`, and for the `message`, we're specifying the:
 * URI of the schema
 * format of the data
-* [publicity](/docs/web5/decentralized-web-nodes/publishing-records) of the data. Because we specified the records as published, they are available for public queries without requiring authorization.
+* [publicity](/web5/decentralized-web-nodes/publishing-records) of the data. Because we specified the records as published, they are available for public queries without requiring authorization.
 
 All of this metadata helps with the discoverability of the data by apps.
 

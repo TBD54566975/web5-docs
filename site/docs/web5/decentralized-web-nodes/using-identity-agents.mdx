@@ -6,7 +6,7 @@ import CodeSnippet from '@site/src/components/CodeSnippet';
 
 # Using Identity Agents
 
-Identity Agents are a specialized type of [agent](https://developer.tbd.website/docs/web5/decentralized-web-nodes/agents/) that act as personal identity managers.  Similar to how a password manager securely stores login credentials for different web apps, Identity Agents manage your [DIDs](https://developer.tbd.website/docs/web5/decentralized-identifiers/what-are-dids).
+Identity Agents are a specialized type of [agent](https://developer.tbd.website/web5/decentralized-web-nodes/agents/) that act as personal identity managers.  Similar to how a password manager securely stores login credentials for different web apps, Identity Agents manage your [DIDs](https://developer.tbd.website/web5/decentralized-identifiers/what-are-dids).
 
 By default, the `Web5.connect()` function generates a **new** identity; however, Identity Agents allow you to connect to a Web5 app with an **existing** identity. This is useful for maintaining a cohesive online presence.
 
@@ -43,7 +43,7 @@ In your Identity Agent app, include the code snippet below to prompt users to au
 <CodeSnippet functionName="authenticateIdentityAgent" />
 
 ## Connect DIDs to DWNs
-To add [DWNs](https://developer.tbd.website/docs/web5/decentralized-web-nodes/what-are-dwns/) as service endpoints to the DIDs that will be managed by the Identity Agent, you can add the endpoints as `didOptions`.
+To add [DWNs](https://developer.tbd.website/web5/decentralized-web-nodes/what-are-dwns/) as service endpoints to the DIDs that will be managed by the Identity Agent, you can add the endpoints as `didOptions`.
 
 Below is an example using TBD-hosted DWN endpoints:
 
@@ -77,7 +77,7 @@ Each identity, linked to a unique DID, represents and compartmentalizes differen
 
 :::note
 * The `name` field serves as a friendly name for reference.
-* The `kms` field stands for [Key Management Service](/docs/web5/decentralized-identifiers/key-management) and can securely store and manage the cryptographic keys associated with a DID. If you don't specify a particular key management service, such as AWS Key Management Service, Web5 will default to an in-memory key manager.
+* The `kms` field stands for [Key Management Service](/web5/decentralized-identifiers/key-management) and can securely store and manage the cryptographic keys associated with a DID. If you don't specify a particular key management service, such as AWS Key Management Service, Web5 will default to an in-memory key manager.
 :::
 
 ## Use your Identity in a Web5 Application

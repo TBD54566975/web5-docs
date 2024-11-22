@@ -21,7 +21,7 @@ function DocsIndex() {
       <div className="grid grid-cols-1 desktop:grid-cols-2 gap-4">
         <HeroCard
           heroText="Web5"
-          buttonUrl="/docs/web5/quickstart"
+          buttonUrl="/web5/quickstart"
           buttonText="Quickstart 🚀"
           bodyText="An interactive guide to create an app with decentralized identity and storage"
           imgSrc="/img/did-vc.svg"
@@ -41,7 +41,7 @@ function DocsIndex() {
       <div className="grid grid-cols-1 desktop:grid-cols-2 gap-4">
         <HeroCard
           heroText="Decentralized Identifiers"
-          buttonUrl="/docs/web5/decentralized-identifiers/what-are-dids"
+          buttonUrl="/web5/decentralized-identifiers/what-are-dids"
           buttonText="Learn"
           imgSrc="/img/id-blue-purple.svg"
           imgClass="w-32 beat-fade"
@@ -50,7 +50,7 @@ function DocsIndex() {
         />
         <HeroCard
           heroText="Verifiable Credentials"
-          buttonUrl="/docs/web5/verifiable-credentials/what-are-vcs"
+          buttonUrl="/web5/verifiable-credentials/what-are-vcs"
           buttonText="Learn"
           imgSrc="/img/credential-yellow.svg"
           imgClass="w-32 beat-fade"

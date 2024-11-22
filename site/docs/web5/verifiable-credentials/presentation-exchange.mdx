@@ -8,19 +8,19 @@ sidebar_position: 5
 
 # Presentation Exchange
 
-In this guide, we'll cover the process of presenting [Verifiable Credentials (VCs)](/docs/web5/verifiable-credentials/what-are-vcs) to a verifier.
+In this guide, we'll cover the process of presenting [Verifiable Credentials (VCs)](/web5/verifiable-credentials/what-are-vcs) to a verifier.
 This process is known as a **Presentation Exchange (PEX)** and involves selecting credentials that satisfy a Presentation Definition, creating a presentation based on that definition, and submitting the presentation to a verifier.
 PEX is typically executed by the user's Wallet application, acting on behalf of the user.
 
 :::note
-Before presenting VCs in a PEX, it's important to note that the VCs would have already been [created](/docs/web5/verifiable-credentials/vc-issuance#create-vc),
-[signed in a JWT format](/docs/web5/verifiable-credentials/vc-issuance#sign-vc), and [stored](/docs/web5/verifiable-credentials/vcs-in-dwn#storing-vc-in-dwn)
+Before presenting VCs in a PEX, it's important to note that the VCs would have already been [created](/web5/verifiable-credentials/vc-issuance#create-vc),
+[signed in a JWT format](/web5/verifiable-credentials/vc-issuance#sign-vc), and [stored](/web5/verifiable-credentials/vcs-in-dwn#storing-vc-in-dwn)
 in the user's Wallet application.
 :::
 
 ## Presentation Definition
 
-The entity requesting credentials, aka the verifier, will have defined the presentation requirements using a [Presentation Definition](/docs/web5/verifiable-credentials/presentation-definition).
+The entity requesting credentials, aka the verifier, will have defined the presentation requirements using a [Presentation Definition](/web5/verifiable-credentials/presentation-definition).
 This definition specifies the criteria that the VCs need to meet.
 
 Assume a lender has an existing Presentation Definition specifying that applicants must provide VCs to prove their legal name, date of birth, and employment status:
@@ -280,7 +280,7 @@ Each `Checked` object contains:
 
 ## Verifiable Presentation
 
-Once the [Presentation](/docs/glossary#verifiable-presentation) is error-free and has passed the validation checks, you can submit the Verifiable Presentation as a signed and encoded JWT to the lender for [verification](/docs/web5/verifiable-credentials/verify-vc#verify-verifiable-presentations).
+Once the [Presentation](/glossary#verifiable-presentation) is error-free and has passed the validation checks, you can submit the Verifiable Presentation as a signed and encoded JWT to the lender for [verification](/web5/verifiable-credentials/verify-vc#verify-verifiable-presentations).
 
 <Shnip
    snippets={[

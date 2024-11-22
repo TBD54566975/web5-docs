@@ -8,7 +8,7 @@ sidebar_position: 4
 
 # Key Management
 
-[Decentralized Identifiers (DIDs)](/docs/web5/decentralized-identifiers/what-are-dids) are associated with public and private keys.
+[Decentralized Identifiers (DIDs)](/web5/decentralized-identifiers/what-are-dids) are associated with public and private keys.
 The private key, which should be kept secret, is used to sign information or transactions, demonstrating control over the DID.
 
 Proper [key management](https://en.wikipedia.org/wiki/Key_management) ensures that private keys are securely stored and used, reducing the risk of unauthorized access or misuse.
@@ -21,7 +21,7 @@ The Web5 SDK provides a `KeyManager` interface that makes it possible to use any
 It's ideal for scenarios where temporary key management is sufficient, such as in testing environments.
 Since the keys are stored in memory, they are lost when the application is terminated.
 
-* **AwsKeyManager**: This implementation integrates with the [AWS Key Management Service(KMS)](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html), providing a secure and robust solution for key management.
+* **AwsKeyManager**: This implementation integrates with the [AWS Key Management Service(KMS)](https:/.aws.amazon.com/kms/latest/developerguide/overview.html), providing a secure and robust solution for key management.
 It's well-suited for production environments where a high level of security and availability are critical.
 
 Both implementations facilitate key generation and signature operations essential for creating and managing DIDs. Each caters to distinct security needs, and the choice between them should be based on the specific requirements of your application.
@@ -37,7 +37,7 @@ Any of these can be used by implementing the [CryptoApi](https://tbd54566975.git
 
   <div language="Kotlin">
     <p>
-Any of these can be used by implementing the [KeyManager](https://tbd54566975.github.io/web5-kt/docs/-web5%20-s-d-k%20-documentation/web5.sdk.crypto/-key-manager/index.html) interface.
+Any of these can be used by implementing the [KeyManager](https://tbd54566975.github.io/web5-kt/-web5%20-s-d-k%20-documentation/web5.sdk.crypto/-key-manager/index.html) interface.
     </p>
   </div>
   <div language="Swift">
@@ -91,7 +91,7 @@ You can pass additional parameters to `AWSKeyManager()` to set up your key manag
 
   <div language="Kotlin">
     <p>
-      See the [API Reference Guide](https://tbd54566975.github.io/web5-kt/docs/-web5%20-s-d-k%20-documentation/web5.sdk.crypto/-aws-key-manager/index.html?query=class%20AwsKeyManager%C2%A0constructor(kmsClient:%20%3CError%20class:%20unknown%20class%3E%20=%20AWSKMSClientBuilder.standard().build())%20:%20KeyManager) for information on how to use the KMSClient instance from the AWS SDK to store the private keys to your DID.
+      See the [API Reference Guide](https://tbd54566975.github.io/web5-kt/-web5%20-s-d-k%20-documentation/web5.sdk.crypto/-aws-key-manager/index.html?query=class%20AwsKeyManager%C2%A0constructor(kmsClient:%20%3CError%20class:%20unknown%20class%3E%20=%20AWSKMSClientBuilder.standard().build())%20:%20KeyManager) for information on how to use the KMSClient instance from the AWS SDK to store the private keys to your DID.
     </p>
   </div>
   <div language="Swift">

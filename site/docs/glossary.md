@@ -4,11 +4,11 @@
 
 An agent is software that acts on behalf of a user to manage identity, public or private data, and interactions with other apps in a decentralized network. Agents hold a user's [DIDs](#decentralized-identifier-did), private keys, and a [DWN](#decentralized-web-node-dwn), and are permissioned to use the private keys of DIDs to act on a user's behalf to sign and store messages within a DWN.
 
-[\<\< More on Agents \>\>](/docs/web5/decentralized-web-nodes/agents)
+[\<\< More on Agents \>\>](/web5/decentralized-web-nodes/agents)
 
 ## Bearer DID
 
-A Bearer DID is a composite type that combines a [DID](#decentralized-identifier-did), its associated [DID Document](#did-document), and a [Key Manager](/docs/web5/decentralized-identifiers/key-management) containing the DID's cryptographic keys. It provides methods for signing data, verifying signatures, and managing the DID's associated keys.
+A Bearer DID is a composite type that combines a [DID](#decentralized-identifier-did), its associated [DID Document](#did-document), and a [Key Manager](/web5/decentralized-identifiers/key-management) containing the DID's cryptographic keys. It provides methods for signing data, verifying signatures, and managing the DID's associated keys.
 
 ## Centralized Authority
 
@@ -18,19 +18,19 @@ A single entity or organization that has control over the network and its operat
 
 A Decentralized Identifier (DID) is a globally unique identifier that enables verifiable, decentralized digital identity, without the need for centralized intermediaries. DIDs are typically implemented using decentralized and distributed ledger technologies, such as blockchain, and provide a way to verify and authenticate digital identities, while ensuring privacy and control over personal data.
 
-[\<\< More on DIDs \>\>](/docs/web5/decentralized-identifiers/what-are-dids/)
+[\<\< More on DIDs \>\>](/web5/decentralized-identifiers/what-are-dids/)
 
 ## Decentralized Web Node (DWN)
 
 A Decentralized Web Node is a personal data store in a decentralized network that stores and shares information, serves as a communication channel, and executes transactions in a distributed manner, without relying on a centralized server, thereby enhancing security, privacy, and resilience of the network.
 
-[\<\< More on DWNs \>\>](/docs/web5/decentralized-web-nodes/what-are-dwns)
+[\<\< More on DWNs \>\>](/web5/decentralized-web-nodes/what-are-dwns)
 
 ## DID Document
 
 A JSON document containing details about a DID, including the DID itself, represented by an `id` field, as well as other data related to the verification and authentication methods of the DID.
 
-[\<\< More on DID Documents \>\>](/docs/web5/decentralized-identifiers/did_documents)
+[\<\< More on DID Documents \>\>](/web5/decentralized-identifiers/did_documents)
 
 ## DID Method
 
@@ -55,7 +55,7 @@ A digital storage system that securely stores and manages a DID's cryptographic 
 
 A Portable DID is a JSON-serialized representation of a [DID](#decentralized-identifier-did), including its URI, [DID Document](#did-document), and metadata. It's designed for easy storage, transfer, and reconstruction of a full DID across different systems or applications.
 
-[\<\< More on Portable DIDs \>\>](/docs/web5/decentralized-identifiers/how-to-create-did#portable-did)
+[\<\< More on Portable DIDs \>\>](/web5/decentralized-identifiers/how-to-create-did#portable-did)
 
 ## Signature Algorithm
 
@@ -70,4 +70,4 @@ SSI refers to a concept where individuals have full control and ownership over t
 
 A Verifiable Presentation is a standard data container that serves as an authenticated wrapper around a set of credentials to be verified. They impose no constraints on who can construct them or what may be presented, allowing you to present multiple VCs issued to different DIDs.
 
-[\<\< More on Verifiable Presentation \>\>](/docs/web5/verifiable-credentials/presentation-exchange#verifiable-presentation)
+[\<\< More on Verifiable Presentation \>\>](/web5/verifiable-credentials/presentation-exchange#verifiable-presentation)

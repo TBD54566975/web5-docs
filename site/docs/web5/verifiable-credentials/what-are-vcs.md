@@ -8,7 +8,7 @@ hide_title: true
 
 <iframe class="aspect-video" src="https://www.youtube.com/embed/k9CL1ETxCkU" title="Verifiable Credentials" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Alice and Bob have obtained [Decentralized Identifiers (DIDs)](https://developer.tbd.website/docs/web5/decentralized-identifiers/what-are-dids) and are now exploring Verifiable Credentials (VCs).
+Alice and Bob have obtained [Decentralized Identifiers (DIDs)](https://developer.tbd.website/web5/decentralized-identifiers/what-are-dids) and are now exploring Verifiable Credentials (VCs).
 
 ## TL;DR
 
@@ -80,7 +80,7 @@ In this VC, Decentralized University issued a credential verifying that Alice co
 
 ## How do VCs actually work?
 
-Remember the cryptographic brilliance we encountered with DIDs and the pairing of [private & public keys](/docs/web5/decentralized-identifiers/what-are-dids#did-key-management)? It’s a critical part of VCs as well.
+Remember the cryptographic brilliance we encountered with DIDs and the pairing of [private & public keys](/web5/decentralized-identifiers/what-are-dids#did-key-management)? It’s a critical part of VCs as well.
 
 There are different ways to secure VCs, let's look into securing them with JWT. JWT stands for [JSON Web Token](https://jwt.io/), a lightweight, URL-safe format that has three distinct components: a **header**, **payload**, and **signature**.
 
@@ -92,7 +92,7 @@ There are different ways to secure VCs, let's look into securing them with JWT. 
 
 > _Example of an encoded JWT string from [Ram Potabatti](https://medium.com/@rampotabatti)_
 
-In our example, for Alice's potential employer to verify that she did indeed graduate from Decentralized University, Alice would need to give them a [Verifiable Presentation](/docs/glossary#verifiable-presentation) that contains her VC's JWT string.
+In our example, for Alice's potential employer to verify that she did indeed graduate from Decentralized University, Alice would need to give them a [Verifiable Presentation](/glossary#verifiable-presentation) that contains her VC's JWT string.
 
 The employer (verifier) would then get the university's public key through the [Verifiable Data Registry](https://www.w3.org/TR/vc-data-model-2.0/#ecosystem-overview). In order for the university to create that JWT string, they need their public-private key pair. The employer would then verify the JWT using the university's public key and the JWT's encoded signature (the characters after the last period in the above string #3).
 
@@ -106,4 +106,4 @@ Trust is still critical. A VC from “Bob’s Bogus Academy” might not carry t
 
 VCs can be securely stored and managed via identity wallets. When the need arises to share them, it's simply a matter of presenting directly from the wallet, ensuring personal data remains private.
 
-Now, with their newfound knowledge of VCs, Alice and Bob are ready to further explore the decentralized web, presenting their credentials with confidence. Looking to play around with Verifiable Credentials yourself? Start by following our [Issue a VC](/docs/web5/verifiable-credentials/vc-issuance) guide. For additional resources, check out our [Web5/credentials](https://www.npmjs.com/package/@web5/credentials) npm package.
+Now, with their newfound knowledge of VCs, Alice and Bob are ready to further explore the decentralized web, presenting their credentials with confidence. Looking to play around with Verifiable Credentials yourself? Start by following our [Issue a VC](/web5/verifiable-credentials/vc-issuance) guide. For additional resources, check out our [Web5/credentials](https://www.npmjs.com/package/@web5/credentials) npm package.
