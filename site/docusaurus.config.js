@@ -108,10 +108,6 @@ let config = {
           position: 'left',
           
         },
-        {
-          to: '#ask',
-          label: 'Ask 🤖',
-        },
       ],
     },
     footer: {
