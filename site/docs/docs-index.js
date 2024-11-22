@@ -28,15 +28,7 @@ function DocsIndex() {
           imgClass="w-32 flip"
           themeColor="purple"
         />
-        <HeroCard
-          heroText="tbDEX"
-          buttonUrl="/docs/tbdex/"
-          buttonText="Playbooks 📖"
-          bodyText="Guides on integrating your app with the tbDEX SDK to seek or provide liquidity"
-          imgSrc="/img/money-msg-blue-purple.svg"
-          imgClass="w-36 flip"
-          themeColor="cyan"
-        />
+
       </div>
 
       <div className="padding-top--xl" />
