@@ -17,7 +17,7 @@ export const content = {
         description:
           'Decentralized Identifiers are a W3C international standard for identifiers created, owned, and controlled by individuals, without reliance on centralized entities',
         textButton: 'View Component',
-        url: '/docs/web5/decentralized-identifiers/what-are-dids',
+        url: '/decentralized-identifiers/what-are-dids',
         isExternalLink: false,
       },
       {
@@ -25,7 +25,7 @@ export const content = {
         title: 'Verifiable Credentials',
         description:'Verifiable Credentials are a W3C international standard for cryptographically-signed statements made by an issuer about a holder',
         textButton: 'View Component',
-        url: '/docs/web5/verifiable-credentials/what-are-vcs',
+        url: '/verifiable-credentials/what-are-vcs',
         isExternalLink: false,
       },
       {
@@ -33,7 +33,7 @@ export const content = {
         title: 'Decentralized Web Nodes',
         description: TBDEXProtocol,
         textButton: 'View Component',
-        url: '/docs/web5/decentralized-web-nodes/what-are-dwns',
+        url: '/decentralized-web-nodes/what-are-dwns',
         isExternalLink: false,
       }
     ],

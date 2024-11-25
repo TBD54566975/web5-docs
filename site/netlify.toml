@@ -7,60 +7,60 @@ from = "/docs/Decentralized%20Web%20Platform%20-%20Public.pdf"
 to = "/files/Decentralized-Web-Platform.pdf"
 
 [[redirects]]
-from = "/docs/web5/build/troubleshooting-guide"
-to = "/docs/web5/decentralized-web-nodes/troubleshooting/common-errors"
+from = "/build/troubleshooting-guide"
+to = "/decentralized-web-nodes/troubleshooting/common-errors"
 
 [[redirects]]
-from = "/docs/web5/troubleshooting-guide"
-to = "/docs/web5/decentralized-web-nodes/troubleshooting/common-errors"
+from = "/troubleshooting-guide"
+to = "/decentralized-web-nodes/troubleshooting/common-errors"
 
 [[redirects]]
-from = "/docs/web5/build/frameworks/next"
-to = "/docs/web5/decentralized-web-nodes/troubleshooting/next"
+from = "/build/frameworks/next"
+to = "/decentralized-web-nodes/troubleshooting/next"
 
 [[redirects]]
-from = "/docs/web5/build/frameworks/vue"
-to = "/docs/web5/decentralized-web-nodes/troubleshooting/vue"
+from = "/build/frameworks/vue"
+to = "/decentralized-web-nodes/troubleshooting/vue"
 
 [[redirects]]
-from = "/docs/web5/troubleshooting/*"
-to = "/docs/web5/decentralized-web-nodes/troubleshooting/:splat"
+from = "/troubleshooting/*"
+to = "/decentralized-web-nodes/troubleshooting/:splat"
 status = 301
 
 [[redirects]]
-from = "/docs/web5/build/*"
-to = "/docs/web5/:splat"
+from = "/build/*"
+to = "/:splat"
 status = 301
 force = true
 
 [[redirects]]
-from = "/docs/web5/learn/decentralized-identifiers"
-to = "/docs/web5/decentralized-identifiers/what-are-dids"
+from = "/learn/decentralized-identifiers"
+to = "/decentralized-identifiers/what-are-dids"
 
 [[redirects]]
-from = "/docs/web5/learn/decentralized-web-nodes"
-to = "/docs/web5/decentralized-web-nodes/what-are-dwns"
+from = "/learn/decentralized-web-nodes"
+to = "/decentralized-web-nodes/what-are-dwns"
 
 [[redirects]]
-from = "/docs/web5/learn/verifiable-credentials"
-to = "/docs/web5/verifiable-credentials/what-are-vcs"
+from = "/learn/verifiable-credentials"
+to = "/verifiable-credentials/what-are-vcs"
 
 [[redirects]]
-from = "/docs/web5/learn/did_documents"
-to = "/docs/web5/decentralized-identifiers/did_documentss"
+from = "/learn/did_documents"
+to = "/decentralized-identifiers/did_documentss"
 
 [[redirects]]
-from = "/docs/web5/learn/agents"
-to = "/docs/web5/decentralized-web-nodes/agents"
+from = "/learn/agents"
+to = "/decentralized-web-nodes/agents"
 
 [[redirects]]
-from = "/docs/web5/learn/protocols"
-to = "/docs/web5/decentralized-web-nodes/what-are-protocols"
+from = "/learn/protocols"
+to = "/decentralized-web-nodes/what-are-protocols"
 
 [[redirects]]
-from = "/docs/web5/learn/sync"
-to = "/docs/web5/decentralized-web-nodes/sync"
+from = "/learn/sync"
+to = "/decentralized-web-nodes/sync"
 
 [[redirects]]
-from = "/docs/web5/decentralized-web-nodes/protocols"
-to = "/docs/web5/decentralized-web-nodes/what-are-protocols"
+from = "/decentralized-web-nodes/protocols"
+to = "/decentralized-web-nodes/what-are-protocols"
