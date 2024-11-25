@@ -17,7 +17,7 @@ export const content = {
         description:
           'Decentralized Identifiers are a W3C international standard for identifiers created, owned, and controlled by individuals, without reliance on centralized entities',
         textButton: 'View Component',
-        url: '/docs/web5/decentralized-identifiers/what-are-dids'
+        url: '/decentralized-identifiers/what-are-dids'
       },
       {
         icon: '/img/component-icon.svg',
@@ -25,7 +25,7 @@ export const content = {
         description:
           'Verifiable Credentials are a W3C international standard for verifiable claims.',
         textButton: 'View Component',
-        url: '/docs/web5/verifiable-credentials/what-are-vcs'
+        url: '/verifiable-credentials/what-are-vcs'
       }
     ],
   },

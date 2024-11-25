@@ -4,7 +4,7 @@ sidebar_position: 9
 ---
 
 
-Users are able to possess multiple [Decentralized Web Nodes (DWNs)](/web5/decentralized-web-nodes/what-are-dwns) and have the data across each of them synchronized. This provides end users with the ability to own their data in resilient and convenient ways. 
+Users are able to possess multiple [Decentralized Web Nodes (DWNs)](/decentralized-web-nodes/what-are-dwns) and have the data across each of them synchronized. This provides end users with the ability to own their data in resilient and convenient ways. 
 
 In this guide, we’ll discuss what sync means in the context of DWNs and Web5, how it works, and what it means for you, your apps, and your end users.
 
@@ -50,4 +50,4 @@ Although sync is designed to be automatic, seamless, and work in the background,
 
 ![Alice and Bob messaging via DWNs](/img/alice-bob-dwn.png)
 
-There could also be scenarios where waiting for sync could lead to race conditions. You can [configure sync intervals](/web5/decentralized-web-nodes/web5-connect#configure-sync-interval-when-connecting-to-web5), or force a sync between a user’s DWNs by calling [record.send()](https://tbd54566975.github.io/web5-js/classes/_web5_api.DwnApi.html#records).
+There could also be scenarios where waiting for sync could lead to race conditions. You can [configure sync intervals](/decentralized-web-nodes/web5-connect#configure-sync-interval-when-connecting-to-web5), or force a sync between a user’s DWNs by calling [record.send()](https://tbd54566975.github.io/web5-js/classes/_web5_api.DwnApi.html#records).

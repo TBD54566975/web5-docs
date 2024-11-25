@@ -7,12 +7,12 @@ hide_table_of_contents: false
 
 # Web5 CLI
 
-The Web5 CLI is a Rust-based command-line tool for creating and managing [Decentralized Identifiers (DIDs)](/web5/decentralized-identifiers/what-are-dids) and [Verifiable Credentials (VCs)](/web5/verifiable-credentials/what-are-vcs). 
+The Web5 CLI is a Rust-based command-line tool for creating and managing [Decentralized Identifiers (DIDs)](/decentralized-identifiers/what-are-dids) and [Verifiable Credentials (VCs)](/verifiable-credentials/what-are-vcs). 
 
 This guide covers CLI installation and usage for DID and VC management.
 
 :::note
-Alternatively, you can use the [Web5 SDK](/) to create [DIDs](/web5/decentralized-identifiers/how-to-create-did) and [VCs](/web5/verifiable-credentials/vc-issuance).
+Alternatively, you can use the [Web5 SDK](/) to create [DIDs](/decentralized-identifiers/how-to-create-did) and [VCs](/verifiable-credentials/vc-issuance).
 ::: 
 
 ## Installation
@@ -57,7 +57,7 @@ web5 did create web --domain https://example.com
 
 ## Resolve a DID
 
-The `web5 did resolve` command resolves a DID to retrieve its [DID Document](/web5/decentralized-identifiers/did_documents)
+The `web5 did resolve` command resolves a DID to retrieve its [DID Document](/decentralized-identifiers/did_documents)
 
 ```bash
 web5 did resolve <did-uri> [options]
@@ -74,7 +74,7 @@ web5 did resolve did:dht:bwrh9fphhegh1jn3hhe656zuyfxqdm493so5r4hmpte1yf456w5o
 ```
 
 ## Create a VC
-The `web5 vc create` command creates a VC. By default, this command creates an unsigned VC in JSON format. If a Portable DID is provided, this command outputs a signed VC in [JWT](/web5/verifiable-credentials/jwt-to-vc/#what-is-a-jwt) format.
+The `web5 vc create` command creates a VC. By default, this command creates an unsigned VC in JSON format. If a Portable DID is provided, this command outputs a signed VC in [JWT](/verifiable-credentials/jwt-to-vc/#what-is-a-jwt) format.
 
 ```bash
 web5 vc create <credential-subject-did-uri> [options]

@@ -95,7 +95,7 @@ setMyDid(did);
 
 ### 🧩 Breaking it down
 - **Web5.connect()** returns a Web5 instance: It initializes and returns an instance of Web5, allowing you to interact with the Web5 ecosystem.
-- **Web5.connect()** also creates or connects to a DID: A DID ([Decentralized Identifier](https://developer.tbd.website/web5/decentralized-identifiers/what-are-dids)) is a user’s unique ID card for the decentralized, digital world. It belongs only to you. `Web5.connect()` will either connect to an existing DID that you have or create a new one for you if you don't have one yet. A DID acts as an authenticator for Web5 apps, removing the need for login credentials.
+- **Web5.connect()** also creates or connects to a DID: A DID ([Decentralized Identifier](https://developer.tbd.website/decentralized-identifiers/what-are-dids)) is a user’s unique ID card for the decentralized, digital world. It belongs only to you. `Web5.connect()` will either connect to an existing DID that you have or create a new one for you if you don't have one yet. A DID acts as an authenticator for Web5 apps, removing the need for login credentials.
 
 ### 📘 Learn more
 Learn more about [DID authentication](https://developer.tbd.website/blog/did-authentication).
@@ -134,7 +134,7 @@ return dingerProtocolDefinition;
 - **dingerProtocolDefinition:** This object defines the protocol, its structure, and it grants permissions outlining who can perform specific actions like reading or writing a ding.
 
 ### 📘 Learn more
-Learn more about [defining protocols](https://developer.tbd.website/web5/decentralized-web-nodes/what-are-protocols#defining-a-protocol).
+Learn more about [defining protocols](https://developer.tbd.website/decentralized-web-nodes/what-are-protocols#defining-a-protocol).
 
 ## Level 4: Install the defined protocol
 ### 📝 Task
@@ -174,7 +174,7 @@ return await web5.dwn.protocols.query({
 - **web5.dwn.protocols.query():** This function checks if the protocol already exists
 
 ### 📘 Learn more
-Learn more about [querying protocols](https://developer.tbd.website/web5/decentralized-web-nodes/what-are-protocols#protocols-in-practice).
+Learn more about [querying protocols](https://developer.tbd.website/decentralized-web-nodes/what-are-protocols#protocols-in-practice).
 
 ## Level 6: Bring all the protocol steps together
 ### 📝 Task
@@ -203,7 +203,7 @@ if (localProtocolStatus.code !== 200 || localProtocol.length === 0) {
 - **configureProtocol()**: This function is responsible for configuring the protocol in both the local and remote DWNs. It first checks if the protocol is already installed locally. If not, it installs the protocol locally and then attempts to install it on the remote DWN associated with the user's DID.
 
 ### 📘 Learn more
-- Learn more about [protocols](https://developer.tbd.website/web5/decentralized-web-nodes/what-are-protocols/).
+- Learn more about [protocols](https://developer.tbd.website/decentralized-web-nodes/what-are-protocols/).
 
 
 ## Level 7: Write to the DWN
@@ -233,7 +233,7 @@ return record;
 
 
 ### 📘 Learn more
-- Learn more about[ Decentralized Web Nodes](/web5/decentralized-web-nodes/what-are-dwns) and [writing DWN records](https://developer.tbd.website/web5/decentralized-web-nodes/write-to-dwn).
+- Learn more about[ Decentralized Web Nodes](/decentralized-web-nodes/what-are-dwns) and [writing DWN records](https://developer.tbd.website/decentralized-web-nodes/write-to-dwn).
 
 ## Level 8: Send dings
 
@@ -253,7 +253,7 @@ return await record.send(recipientDid);
 
 
 ### 📘 Learn more
-- Learn more about [sync intervals](https://developer.tbd.website/web5/decentralized-web-nodes/sync#sync-intervals).
+- Learn more about [sync intervals](https://developer.tbd.website/decentralized-web-nodes/sync#sync-intervals).
 
 ## Level 9: Retrieve dings
 ### 📝 Task 1
@@ -332,7 +332,7 @@ setAllDings(allMessages);
 - The method web5.dwn.records.query() queries the DWN for records matching a specified filter. In the above code snippet, it retrieves records with the protocol https://blackgirlbytes.dev/dinger-chat-protocol.
 
 ### 📘 Learn more
-- - Learn more about how to [query DWN records](/web5/decentralized-web-nodes/query-from-dwn) and [filterable record properties](/web5/decentralized-web-nodes/query-from-dwn#filterable-record-properties).
+- - Learn more about how to [query DWN records](/decentralized-web-nodes/query-from-dwn) and [filterable record properties](/decentralized-web-nodes/query-from-dwn#filterable-record-properties).
 
 
 ## Level 10: Sync the UI with the DWN
@@ -394,7 +394,7 @@ After following these steps, you should see a conversation taking place between 
 
 <details>
 <summary>Not receiving any messages?</summary>
-<a href="https://developer.tbd.website/web5/decentralized-web-nodes/sync/">Sync</a> intervals occur every two minutes. If you're eager to see immediate updates for testing purposes, you can adjust the sync settings. Update the line:
+<a href="https://developer.tbd.website/decentralized-web-nodes/sync/">Sync</a> intervals occur every two minutes. If you're eager to see immediate updates for testing purposes, you can adjust the sync settings. Update the line:
 
 ```javascript title="src/pages/index.js"
 const { web5, did } = await Web5.connect();
