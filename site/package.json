@@ -55,7 +55,7 @@
     "docusaurus-plugin-remote-content": "4.0.0",
     "docusaurus-tailwindcss": "0.1.0",
     "dotenv": "16.3.1",
-    "express": "4.18.2",
+    "express": "4.20.0",
     "font-awesome": "4.7.0",
     "googleapis": "128.0.0",
     "msw": "2.1.7",
