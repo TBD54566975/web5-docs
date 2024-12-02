@@ -23,7 +23,7 @@ export default defineConfig({
     //   headless: true,
     // },
     setupFiles: [
-      "./site/testsuites/testsuite-javascript/__tests__/setup-web5.js",
+      "./testsuites/testsuite-javascript/__tests__/setup-web5.js",
     ],
   },
 });
